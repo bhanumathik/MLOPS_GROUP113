@@ -1,0 +1,9 @@
+gitpython
+
+pandas
+scikit-learn
+mlflow
+pytest
+pylint
+numpy
+pandas
