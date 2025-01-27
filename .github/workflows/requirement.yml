@@ -83,7 +83,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Install dependencies for deployment
+          pip install -r Requirements.txt  # Install dependencies for deployment
 
       - name: Deploy model
         run: |
