@@ -26,16 +26,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r Requirements.txt
 
+      - name: lint model
+      run: |
+        python lint_model.py
+
     - name: Run tests
       run: |
         python test_model.py
 
-    - name: Train model
+    - name: Deploy model
       run: |
-        python train_model.py
+        python deploy_model.py
 
-    - name: Upload model artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: trained-model
-        path: path/to/your/model/output
+ 
