@@ -4,4 +4,4 @@ mlflow
 pytest
 pylint
 numpy
-pandas
+
