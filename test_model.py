@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load the dataset (replace with your actual file path)
-df = pd.read_csv('/content/drive/MyDrive/Twitter_Data.csv')
+df = pd.read_csv('Twitter_Data.csv')
 df = df[['clean_text', 'category']]
 df = df.dropna()
 
